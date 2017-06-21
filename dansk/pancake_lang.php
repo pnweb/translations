@@ -1192,9 +1192,9 @@ $lang = array(
 #########################################################################################
 
     # Begin v4.3.8 changes
-    'email_templates:client_area_details' => 'Kundecenter Details',
+    'email_templates:client_area_details' => 'Kundecenter detaljer',
     'settings:always_https' => 'Gennemtving HTTPS?',
-    'settings:always_https_explanation' => 'This will make Pancake always load via HTTPS. Use this only if you have an SSL certificate installed and can access Pancake via HTTPS.',
+    'settings:always_https_explanation' => 'Dette gør at Pancake altid hentes via HTTPS. Brug kun denne indstilling, hvis du har et SSL certifikat installeret og kan tilgå Pancake via HTTPS.',
     'settings:remittance_slip' => 'Remittance Slip/Girokort/Bankoverførsel?',
     'invoices:mail_to' => 'Skriv/E-mail til',
     'clients:send_client_area_email' => 'Send Kundecenter Details',
