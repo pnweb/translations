@@ -1186,10 +1186,6 @@ $lang = array(
     'invoices:days_before_invoice_is_due' => 'dage før fakturaen er forfalden',
     'invoices:cannot_change_recurrences' => 'Du kan ikke ændre gentagelses indstillinger i en faktura, som er en gentagelse af en anden faktura.',
     # End v4.3.7 changes
-	
-#####################################################################
-#############################################################################
-#########################################################################################
 
     # Begin v4.3.8 changes
     'email_templates:client_area_details' => 'Kundecenter detaljer',
@@ -1198,65 +1194,69 @@ $lang = array(
     'settings:remittance_slip' => 'Remittance Slip/Girokort/Bankoverførsel?',
     'invoices:mail_to' => 'Skriv/E-mail til',
     'clients:send_client_area_email' => 'Send Kundecenter Details',
-    'clients:you_cannot_send' => 'You cannot send this kunde his or her kundecenter details by email because this client does not have an email address.',
+    'clients:you_cannot_send' => 'Du kan ikke sende denne kunde hans kundecenter detaljer via e-mail, da kunden ikke har oplyst en e-mailadresse.',
     # End v4.3.8 changes
 
     # Begin v4.4.0 changes
-    'invoices:discount' => 'Discount',
-    'invoices:discount_explain' => 'Tilføj % for percentages.',
-    'invoices:addedconf' => 'You have added invoice # <strong>:1</strong>, totalling <strong>:2</strong> (:3 with tax) for :4:5.',
-    'estimates:addedconf' => 'You have added estimate # <strong>:1</strong>, totalling <strong>:2</strong> (:3 with tax) for :4:5.',
-    'credit_notes:edit_credit_note' => 'Rediger Credit Note nr. :1',
-    'credit_notes:create_credit_note' => 'Create Credit Note',
-    'global:credit_notes' => 'Credit Notes',
-    'global:credit_note' => 'Credit Note',
-    'credit_notes:alltitle' => 'All Credit Notes',
-    'credit_notes:nocredit_notesforthefilteredclient' => 'You have no credit notes for :1.',
-    'credit_notes:no_credit_notes' => 'You have no credit notes.',
-    'credit_notes:create' => 'Create Credit Note',
-    'credit_notes:no_credit_notes_body' => 'You should get on that! Would you like to create one now?',
-    'credit_notes:edit' => 'Rediger Credit Note',
-    'credit_notes:credit_note_number' => 'Credit Note nr. :1',
-    'credit_notes:credit_note_date' => 'Credit Note Date',
-    'credit_notes:delete_title' => 'Slet this credit note?',
-    'credit_notes:delete_message' => 'Are you sure you want to delete this credit note?',
-    'credit_notes:addedconf' => 'You have added credit note # <strong>:1</strong>, totalling <strong>:2</strong> (:3 with tax) for :4:5.',
-    'credit_notes:send_now_title' => 'Send credit note now?',
-    'credit_notes:send_now_body' => "Fill out the form below and we'll deliver this credit note for you.",
-    'email_templates:new_credit_note' => 'New Credit Note',
-    'credit_notes:send_now' => 'Send Credit Note',
-    'credit_notes:preview' => 'Preview Credit Note',
+    'invoices:discount' => 'Rabat',
+    'invoices:discount_explain' => 'Tilføj % for procent.',
+    'invoices:addedconf' => 'Du har tilføjet faktura nr. <strong>:1</strong>, beløb <strong>:2</strong> (:3 med moms) til :4:5.',
+    'estimates:addedconf' => 'Du har tilføjet estimat nr. <strong>:1</strong>, beløb <strong>:2</strong> (:3 med moms) til :4:5.',
+    'credit_notes:edit_credit_note' => 'Rediger kreditnota nr. :1',
+    'credit_notes:create_credit_note' => 'Opret kreditnota',
+    'global:credit_notes' => 'Kreditnotaer',
+    'global:credit_note' => 'Kreditnota',
+    'credit_notes:alltitle' => 'Alle kreditnotaer',
+    'credit_notes:nocredit_notesforthefilteredclient' => 'Du har ingen kreditnota til :1.',
+    'credit_notes:no_credit_notes' => 'Du har ingen kreditnota.',
+    'credit_notes:create' => 'Opret kreditnota',
+    'credit_notes:no_credit_notes_body' => 'Du sku prøve at lave en! Vil du oprette en nu?',
+    'credit_notes:edit' => 'Rediger kreditnota',
+    'credit_notes:credit_note_number' => 'Kreditnota nr. :1',
+    'credit_notes:credit_note_date' => 'Kreditnota dato',
+    'credit_notes:delete_title' => 'Slet denne kreditnota?',
+    'credit_notes:delete_message' => 'Er du sikker på at du vil slette denne kreditnota?',
+    'credit_notes:addedconf' => 'Du har tilføjet kreditnota nr. <strong>:1</strong>, beløb <strong>:2</strong> (:3 med moms) til :4:5.',
+    'credit_notes:send_now_title' => 'Send kreditnota nu?',
+    'credit_notes:send_now_body' => "Udfyld formularen nedenfor og jeg vil sende denne kreditnota til dig.",
+    'email_templates:new_credit_note' => 'Ny kreditnota',
+    'credit_notes:send_now' => 'Send kreditnota',
+    'credit_notes:preview' => 'Forhåndsvis kreditnota',
     'credit_notes:duplicated' => "Kreditnota nr. :1 er kopieret. Den nye kreditnota har nummer :2.",
-    'credit_notes:client_viewed' => ":1 viewed <a href=':2'>credit note nr. :3</a> on :4",
-    'invoices:make_bulk_payment' => 'Make Multiple Payments',
-    'global:success' => 'Success!',
+    'credit_notes:client_viewed' => ":1 har set <a href=':2'>kreditnota nr. :3</a> on :4",
+    'invoices:make_bulk_payment' => 'Udfør flere betalinger',
+    'global:success' => 'Succes!',
     'clients:view' => 'Se kunde',
-    'invoices:store_bulk_payment' => 'Save Multiple Payments',
-    'invoices:x_invoices' => ':1 invoices',
-    'invoices:amount_to_pay' => 'Amount to mark as paid',
-    'invoices:bulk_payment_added' => "The payments were added successfully.",
-    'clients:credit_balance_currently' => "Credit Balance (currently :1)",
-    'clients:has_no_unpaid_invoices' => ":1 has no unpaid invoices.",
-    'invoices:send_payment_notification' => "Send a payment notification email to the kunde?",
-    'invoices:send_bulk_payment_notification' => "Send payment notification emails to the kunde?",
-    'invoices:specify_bulk_payment_details' => "Specify the details of your kunde's payments, and select to which invoices the payments apply.",
-    'global:credit_balance' => "Credit Balance",
+    'invoices:store_bulk_payment' => 'Gem flere betalinger',
+    'invoices:x_invoices' => ':1 fakturaer',
+    'invoices:amount_to_pay' => 'Beløb der skal betales',
+    'invoices:bulk_payment_added' => "Betalingen er tilføjet.",
+    'clients:credit_balance_currently' => "Kreditsaldo (nuværende :1)",
+    'clients:has_no_unpaid_invoices' => ":1 har ingen ubetalte fakturaer.",
+    'invoices:send_payment_notification' => "Send en betalings notification e-mail til kunden?",
+    'invoices:send_bulk_payment_notification' => "Send betalings notification e-mail til kunden?",
+    'invoices:specify_bulk_payment_details' => "Specificer din kundes betalinger, og vælg hvilke fakturaer der betales.",
+    'global:credit_balance' => "Kreditsaldo",
     # End v4.4.0 changes
 
     # Begin v4.4.1 changes
-    'credit_notes:view' => 'Se Credit Note',
+    'credit_notes:view' => 'Se kreditnote',
     # End v4.4.1 changes
 
     # Begin v4.4.3 changes
     'tickets:ticket_number' => "Sag nr. :1",
-    'settings:ticket_status_for_sending_invoice' => "Sag Status for Invoicing",
-    'settings:ticket_status_for_sending_invoice_description' => "When a paid ticket is updated to this status, an invoice will automatically be generated and sent to the kunde.",
-    'settings:never_send_ticket_invoices_automatically' => "-- Never send ticket invoices automatically --",
+    'settings:ticket_status_for_sending_invoice' => "Supportsagens status når den faktureres",
+    'settings:ticket_status_for_sending_invoice_description' => "Når supportsagen opdatreres til denne status, vil en faktura automatisk blive genereret og sendt til kunden.",
+    'settings:never_send_ticket_invoices_automatically' => "-- Send aldrig fakturaer til supportsager automatisk --",
     # End v4.4.3 changes
 
     # Begin v4.4.6 changes
     'expenses:added' => "The expense was added successfully.",
     # End v4.4.6 changes
+	
+#####################################################################
+#############################################################################
+#########################################################################################
 
     # Begin v4.4.9 changes
     'global:error_submitting_ajax' => "An unknown error occurred while trying to submit this form. Please try again later. If the error persists, please start a free support ticket at pancakeapp.com.",
