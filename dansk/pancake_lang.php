@@ -1251,7 +1251,7 @@ $lang = array(
     # End v4.4.3 changes
 
     # Begin v4.4.6 changes
-    'expenses:added' => "The expense was added successfully.",
+    'expenses:added' => "Udgiften er tilføjet.",
     # End v4.4.6 changes
 	
 #####################################################################
